@@ -1,0 +1,16 @@
+# local data (regenerate with scripts/generate_datasets.py)
+data/
+users.csv
+orders.csv
+# Python / Spark / dbt artifacts
+.venv/
+__pycache__/
+*.pyc
+spark-warehouse/
+metastore_db/
+derby.log
+target/
+dbt_packages/
+logs/
+*.duckdb
+*.duckdb.wal
